@@ -13,11 +13,11 @@
 
 The "robot_to_server_comm" ROS package is designed to communicate different sensor data from the robot to the Mision Planner Server
 
-## Project design
+## Project design 
 ### Repo overview
 ![repo](https://github.com/sayyidabeegam/robot-to-server-communication/assets/47295006/cc03f8de-71e1-4b67-97da-c011a9381154)
 
-### Codebase design
+### Codebase design for robot_to_server_node
 #### 1. Separation of Concerns:
 The code follows a basic separation of concerns by having two classes: TcpSender for handling TCP communication, and RobotToServerCommNode as the main ROS node that inherits from TcpSender.
 #### 2. Error Handling:
@@ -37,6 +37,27 @@ $ cd ...
 $ catkin_make
 $ source devel/setup.bash
 ```
+### Testing
+Terminal 1 - Start the roscore
+```
+$ roscore
+```
+Terminal 2 - Build and run tcp_receiver
+```
+$ g++ -o tcp_receiver tcp_receiver.cpp
+$ ./tcp_receiver 
+```
+Terminal 3 - Run the rosbag
+```
+$ rosbag play test2.bag 
+```
+Terminal 4 - Run robot_to_server_node
+```
+$ cd <Your_ws>
+$ source devel/setup.bash
+$ roslaunch robot_to_server_comm robot_to_server.launch 
+```
+
 ### Using docker file
 
 ## Output
