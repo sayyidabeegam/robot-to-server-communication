@@ -2,10 +2,11 @@
 
 ## Overview
 
-The "robot-to-server" ROS package is designed to communicate different sensor data from the robot to the Mision Planner Server
+The "robot_to_server_comm" ROS package is designed to communicate different sensor data from the robot to the Mision Planner Server
 
 ## Code design
 
-## Testing
+## Usage
+
 
 ## Output
