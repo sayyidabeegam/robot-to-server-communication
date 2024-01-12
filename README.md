@@ -4,9 +4,9 @@
 
 - [Overview](#overview)
 - [Project design](#design)
+- [Notes](#notes)
 - [Usage](#usage)
 - [Output](#output)
-- [Notes](#notes)
 - [Contact](#contact)
 
 ## Overview
@@ -24,7 +24,7 @@ The code follows a basic separation of concerns by having two classes: TcpSender
 Error handling is implemented using perror 
 #### 3. Subscriber Callbacks:
 The subscriber callbacks (imuCallback and odomCallback) are straightforward, converting sensor data to string packets and sending them using TcpSender
-### Notes
+## Notes
 - The code is tested on Ubuntu 20.04.6 LTS
 - ROS bag used for testing is [Dataset HK-Data20190117](https://github.com/weisongwen/UrbanLoco)
 ## Usage
