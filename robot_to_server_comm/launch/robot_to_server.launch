@@ -1,0 +1,3 @@
+<launch>
+  <node name="robot_to_server_node" pkg="robot_to_server_comm" type="robot_to_server_node" output="screen" />
+</launch>
