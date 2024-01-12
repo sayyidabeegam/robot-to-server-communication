@@ -25,7 +25,7 @@ Error handling is implemented using perror
 #### 3. Subscriber Callbacks:
 The subscriber callbacks (imuCallback and odomCallback) are straightforward, converting sensor data to string packets and sending them using TcpSender
 ## Notes
-- The code is tested on Ubuntu 20.04.6 LTS
+- The code is tested on Ubuntu 20.04.6 LTS - ROS Noetic
 - ROS bag used for testing is [Dataset HK-Data20190117](https://github.com/weisongwen/UrbanLoco)
 ## Usage
 ### Build in native
