@@ -59,6 +59,24 @@ $ roslaunch robot_to_server_comm robot_to_server.launch
 ```
 
 ### Using docker file
+Go to the directory where the docker file is available - build docker image
+```
+$ docker build -t <name of the image> .
+```
+Create container
+```
+$ docker run -it --name your_container_name your_image_name
+```
+Execute
+```
+$ docker exec -it your_container_name /bin/bash
+```
+
+
+
+
+
+
 
 ## Output
 Video
