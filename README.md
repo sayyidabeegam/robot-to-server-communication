@@ -72,13 +72,12 @@ Execute
 $ docker exec -it your_container_name /bin/bash
 ```
 
-
-
-
-
-
-
 ## Output
-Video
+Build
+![build](https://github.com/sayyidabeegam/robot-to-server-communication/assets/47295006/c71f20f0-c9e8-4923-927c-cd212510ebc7)
+
+Test
+![test](https://github.com/sayyidabeegam/robot-to-server-communication/assets/47295006/868ec44b-b994-47d9-898f-24114f62e240)
+
 ## Contact
 Email: sayyidabeegam@gmail.com
