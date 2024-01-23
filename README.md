@@ -77,10 +77,8 @@ Build
 ![build](https://github.com/sayyidabeegam/robot-to-server-communication/assets/47295006/c71f20f0-c9e8-4923-927c-cd212510ebc7)
 
 Test
-![f11](https://github.com/sayyidabeegam/robot-to-server-communication/assets/47295006/f6a44136-a79c-425e-9975-7f757ca11bec)
-
-![f22](https://github.com/sayyidabeegam/robot-to-server-communication/assets/47295006/95d7a60a-db08-41bf-b9f9-fff749b5915b)
-
+![f3](https://github.com/sayyidabeegam/robot-to-server-communication/assets/47295006/9a09cdb8-fa4d-4f30-a499-a13758e46622)
+![f4](https://github.com/sayyidabeegam/robot-to-server-communication/assets/47295006/b4d8107c-8f68-43d6-ba7c-4eaf8541265f)
 
 ## Contact
 Email: sayyidabeegam@gmail.com
